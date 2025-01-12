@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LandWind</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="output.css">
 </head>
+
 <body>
 
-    <nav class="flex items-center justify-between gap-8 max-w-[1440px] m-auto px-20 py-6">
-        <div class="flex items-center gap-8">
-            <div class="w-[120px]  sm:w-[156px]" >   
+    <nav class="flex items-center justify-between gap-8 max-w-[1280px] w-[90%] m-auto  py-6">
+        <div class="flex items-center w-full 2md:w-fit gap-8 justify-between">
+            <div class="w-[120px]  sm:w-[156px]">
                 <img w-full src="./assets/Logo.svg" alt="">
             </div>
+            <div class="block 2md:hidden">
+                <i class="material-icons">menu</i>
+            </div>
+        </div>
+        <div class=" hidden 2md:flex items-center w-full justify-between">
             <ul class="flex gap-8">
                 <li><a class="text-mainText font-medium capitalize" href="">Company</a></li>
                 <li><a class="text-mainText font-medium capitalize" href="">Marketplace</a></li>
@@ -20,12 +28,144 @@
                 <li><a class="text-mainText font-medium capitalize" href="">Team</a></li>
                 <li><a class="text-mainText font-medium capitalize" href="">Contact</a></li>
             </ul>
+            <div class="flex items-center gap-8">
+                <a class="gap-8 capitalize text-mainText " href="">Login</a>
+                <a class="capitalize bg-primary p-9  rounded-lg text-white py-2 px-3" href="">Get started</a>
+            </div>
 
         </div>
-        <div class="flex items-center gap-8">
-            <a class="gap-8 capitalize text-mainText " href="">Login</a>
-            <a class="capitalize bg-primary p-9  rounded-lg text-white py-2 px-3" href="">Get started</a>
-        </div>
     </nav>
+
+
+    <header class="wrapper py-16">
+        <div class="flex flex-col pb-32 2md:flex-row gap-24 items-center justify-between">
+            <div class="w-full 2md:w-[50%]">
+                <h1 class="text-mainText text-4xl 2md:text-6xl font-black mb-6">Building digital products & brands</h1>
+                <p class="text-secondaryText text-xl">Here at flowbite we focus on markets where technology, innovation,
+                    and capital can unlock long-term value and drive economic growth.</p>
+                <div class="flex mt-10 gap-4">
+                    <button class="button px-5 py-3">Start 30 day free trial</button>
+                    <button class="px-5 py-3 border border-[#E5E7EB] rounded-lg">Pricing & FAQ</button>
+                </div>
+            </div>
+            <div class="w-full 2md:w-[50%]">
+                <img class="w-full" src="./assets/marketing-strategy 1.svg" alt="">
+            </div>
+        </div>
+        <div class="flex   justify-between ">
+            <img src="./assets/Google.svg" alt="">
+            <img src="./assets/Microsoft.svg" alt="">
+            <img src="./assets/Spotify.svg" alt="">
+            <img src="./assets/Mailchimp.svg" alt="">
+            <img src="./assets/Airbnb.svg" alt="">
+            <img src="./assets/uber.svg" alt="">
+        </div>
+    </header>
+    <main class="wrapper py-16">
+        <section class="bg-[#F9FAFB] pt-24 ">
+            <div class="flex flex-cols-2 2md:flex-rows-4  justify-between gap-16 ">
+                <div class="w-full 2md:w-[50%] p-6">
+                    <div>
+                        <h2 class="leading-tight text-4xl text-mainText font-extrabold mb-4">Work with tools you already
+                            use</h2>
+                        <p class="text-xl text-secondaryText mb-8"> Deliver great service experiences fast - without the
+                            complexity of traditional ITSM solutions.Accelerate critical development work, eliminate
+                            toil, and deploy changes with ease.</p>
+                    </div>
+                    <div class="w-full h-[1px] bg-[#E5E7EB]"></div>
+                    <div class="mt-8">
+                        <ul class="mt-8 gap-4 ">
+                            <li class="flex gap-2 mb-4">
+                                <img src="./assets/check-circle.svg" alt="">
+                                <span>Continuous integration and deployment</span>
+                            </li>
+                            <li class="flex gap-2 mb-4">
+                                <img src="./assets/check-circle.svg" alt="">
+                                <span>Development workflow</span>
+                            </li>
+                            <li class="flex gap-2 mb-4">
+                                <img src="./assets/check-circle.svg" alt="">
+                                <span>Knowledge management</span>
+                            </li>
+                        </ul>
+                        <p class="text-xl text-secondaryText mt-6"> Deliver great service experiences fast - without the
+                            complexity of traditional ITSM solutions.</p>
+                    </div>
+                </div>
+                <div class="w-full 2md:w-[50%]">
+                    <img class="w-full" src="assets/Image.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="">
+        <div class="pl-[80px] pr-[80px] ">
+            <div class="py-16 flex flex-cols-5 justify-between ">
+                <ul class="capitaliz">
+                    <li class="text-mainText uppercase font-semibold mb-4">Comapany</li>
+                    <li class="text-secondaryText mb-4">about</li>
+                    <li class="text-secondaryText mb-4">permium</li>
+                    <li class="text-secondaryText mb-4">blog</li>
+                    <li class="text-secondaryText mb-4">affiliate program</li>
+                    <li class="text-secondaryText mb-4">get coupon</li>
+                </ul>
+                <ul class="capitaliz">
+                    <li class="text-mainText uppercase font-semibold mb-4">Help and Support</li>
+                    <li class="text-secondaryText mb-4">about</li>
+                    <li class="text-secondaryText mb-4">permium</li>
+                    <li class="text-secondaryText mb-4">blog</li>
+                    <li class="text-secondaryText mb-4">affiliate program</li>
+                </ul>
+                <ul class="capitaliz">
+                    <li class="text-mainText uppercase font-semibold mb-4">learning</li>
+                    <li class="text-secondaryText mb-4">about</li>
+                    <li class="text-secondaryText mb-4">permium</li>
+                    <li class="text-secondaryText mb-4">blog</li>
+                    <li class="text-secondaryText mb-4">affiliate program</li>
+                </ul>
+                <ul class="capitaliz">
+                    <li class="text-mainText uppercase font-semibold mb-4">resources</li>
+                    <li class="text-secondaryText mb-4">about</li>
+                    <li class="text-secondaryText mb-4">permium</li>
+                    <li class="text-secondaryText mb-4">blog</li>
+                    <li class="text-secondaryText mb-4">affiliate program</li>
+                    <li class="text-secondaryText mb-4">get coupon</li>
+                </ul>
+                <ul class="capitaliz">
+                    <li class="text-mainText uppercase font-semibold mb-4">legal</li>
+                    <li class="text-secondaryText mb-4">about</li>
+                    <li class="text-secondaryText mb-4">permium</li>
+                    <li class="text-secondaryText mb-4">blog</li>
+                </ul>
+
+            </div>
+            <div class="  ">
+                <div class="flex justify-center">
+
+                    <img  src="./assets/Logo.svg" alt="">
+                </div>
+                <span  class="flex justify-center text-secondaryText mb-4">© 2022 Flowbite, Inc. All rights reserved.</span>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const menu = document.getElementById("menu");
+        menuToggle.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+            if (menu.classList.contains("hidden")) {
+                menuToggle.innerHTML = `<i class="material-icons">menu</i`
+            } else {
+                menuToggle.innerHTML = `<i class="material-icons">close</i>`
+            }
+        });
+    </script>
 </body>
+
 </html>
